@@ -42,7 +42,7 @@ export class HomePage {
   Operador(o: string) {
     this.calcular();
     this.operacion = o;
-    //this.memoria = this.pantalla_resultado;
+    this.memoria = this.pantalla_resultado;
     this.estado = 'operacion';
   }
   //calcular = mostrar en el pantalla_resultado
